@@ -1,6 +1,14 @@
 <template>
-  <div>
-    Header
+  <div class="header">
+    <nav>
+      <a href="#" class="active">
+        Home
+      </a>
+      <a href="#">About me</a>
+      <a href="#">Skills</a>
+      <a href="#">Portfolio</a>
+      <a href="#">Contacts</a>
+    </nav>
   </div>
 </template>
 

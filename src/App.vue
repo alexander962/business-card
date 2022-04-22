@@ -1,4 +1,4 @@
-<template>
+<template class="app">
   <MainComponent />
 </template>
 
@@ -15,4 +15,10 @@ export default {
 
 <style>
   @import "~normalize.css";
+  @import './fonts/gilroy-medium.css';
+  @import './fonts/gilroy-bold.css';
+
+  html, body, #app {
+    height: 100%;
+  }
 </style>
