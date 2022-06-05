@@ -1,0 +1,31 @@
+@import "src/styles/config"
+
+.about
+  margin: 104px 0 91px
+  padding: 120px 0 107px
+  background: #F6F6F6
+  +max-width($tablet)
+    padding: 32px 35px 30px
+  +max-width($mobile)
+    padding: 45px 30px 40px
+
+  &-wrapper
+    max-width: 940px
+    margin: 0 auto
+    text-align: center
+
+  &__header
+    font: 400 34px/42px 'Gilroy-Bold'
+    text-align: center
+    color: #070707
+    margin-bottom: 17px
+
+  &__text
+    max-width: 485px
+    font: 400 18px/22px 'Gilroy-Medium'
+    text-align: center
+    color: #070707
+    margin: 0 auto 40px auto
+
+    &:last-child
+      margin-bottom: 0
