@@ -1,0 +1,9 @@
+$tablet: 1024px
+$mobile: 767px
+
+$black: #070707
+$gray: #828282
+
+@mixin max-width($width)
+  @media only screen and (max-width: $width)
+    @content

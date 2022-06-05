@@ -1,9 +1,7 @@
 <template>
   <div class="header">
-    <nav>
-      <a href="#" class="active">
-        Home
-      </a>
+    <nav class="desktop-navigation">
+      <a href="#" class="active"> Home </a>
       <a href="#">About me</a>
       <a href="#">Skills</a>
       <a href="#">Portfolio</a>
@@ -13,12 +11,19 @@
 </template>
 
 <script>
+import image from "../../assets/img/header/burger.svg";
+
 export default {
-  name: 'HeaderComponent',
+  data() {
+    return {
+      image,
+    };
+  },
+  name: "HeaderComponent",
   props: {
-    msg: String
-  }
-}
+    msg: String,
+  },
+};
 </script>
 
 <style lang="sass" scoped src="./Header.sass"></style>

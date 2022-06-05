@@ -14,7 +14,7 @@ export default {
 </script>
 
 <style>
-  @import "~normalize.css";
+  /*@import "normalize.css";*/
   @import './fonts/gilroy-medium.css';
   @import './fonts/gilroy-bold.css';
 
