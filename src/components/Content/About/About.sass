@@ -1,7 +1,6 @@
 @import "src/styles/config"
 
 .about
-  margin: 104px 0 91px
   padding: 120px 0 107px
   background: #F6F6F6
   +max-width($tablet)
@@ -18,14 +17,17 @@
     font: 400 34px/42px 'Gilroy-Bold'
     text-align: center
     color: #070707
-    margin-bottom: 17px
+    margin-bottom: 30px
+    +max-width($mobile)
+      font-size: 26px
+      line-height: 100%
 
   &__text
     max-width: 485px
     font: 400 18px/22px 'Gilroy-Medium'
     text-align: center
     color: #070707
-    margin: 0 auto 40px auto
+    margin: 0 auto 20px auto
 
     &:last-child
       margin-bottom: 0

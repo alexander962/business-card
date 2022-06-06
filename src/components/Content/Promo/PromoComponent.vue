@@ -1,5 +1,5 @@
 <template>
-  <div class="promo">
+  <div class="promo" id="home">
     <div class="promo-main">
       <div class="promo-main__text">
         <div class="promo-main__block">

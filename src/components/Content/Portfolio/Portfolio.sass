@@ -1,0 +1,43 @@
+@import "src/styles/config"
+
+.portfolio
+  padding: 112px 0 120px
+  background: #F6F6F6
+  +max-width($tablet)
+    padding: 32px 35px 40px
+  +max-width($mobile)
+    padding: 45px 30px 40px
+
+  &__title
+    font: 400 34px/42px 'Gilroy-Bold'
+    text-align: center
+    color: #070707
+    margin-bottom: 80px
+    +max-width($mobile)
+      font-size: 26px
+      line-height: 100%
+
+  &-block
+    width: 940px
+    height: 500px
+    margin: 0 auto 160px auto
+    text-align: center
+    +max-width($tablet)
+      width: 100%
+      height: auto
+      margin: 0 auto 80px auto
+
+    &:last-child
+      margin-bottom: 0
+
+    &__video
+      width: 100%
+      height: 100%
+
+    &__text
+      font: 400 18px/22px 'Gilroy-Medium'
+      text-align: center
+      color: #070707
+      margin-top: 20px
+      @media (max-width: 375px)
+        font-size: 14px

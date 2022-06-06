@@ -1,18 +1,27 @@
 @import "src/styles/config"
 
 .header
+  position: fixed
+  top: 0
+  left: 0
+  background: white
   width: 100%
-  max-width: 946px
-  margin: 0 auto
-  border-bottom: 1px solid #828282
-  padding: 30px 0 34px 0
   flex: 0 0 auto
+  z-index: 9999
 
-  +max-width($tablet)
-    padding: 30px 25px 34px
+  &__wrapper
+    max-width: 946px
+    margin: 0 auto
+    border-bottom: 1px solid #828282
+    padding: 30px 0 34px 0
+    width: 100%
 
-  +max-width($mobile)
-    display: none
+
+    +max-width($tablet)
+      padding: 30px 25px 34px
+
+    +max-width($mobile)
+      display: none
 
   nav
     display: flex

@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="about" id="about">
     <div class="about-wrapper">
       <h2 class="about__header">Обо мне</h2>
       <p class="about__text">
