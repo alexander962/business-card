@@ -1,20 +1,10 @@
-<template class="app">
-  <MainComponent />
+<template>
+  <router-view />
 </template>
 
-<script>
-import MainComponent from "./components/MainComponent.vue";
-
-export default {
-  name: "App",
-  components: {
-    MainComponent,
-  },
-};
-</script>
+<script></script>
 
 <style>
-/*@import "normalize.css";*/
 @import "./fonts/gilroy-medium.css";
 @import "./fonts/gilroy-bold.css";
 
